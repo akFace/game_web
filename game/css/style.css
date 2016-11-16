@@ -1,0 +1,82 @@
+* { margin: 0;padding: 0; }
+img { max-width: 100%;border: 0;display: block; }
+ul,li { list-style: none; }
+a { text-decoration: none; }
+input,button { outline: none; cursor: pointer; }
+html,body { width: 100%;height: 100%; font-family: "微软雅黑" ;font-size: 14px;}
+
+/*---------万能清除浮动---------------*/
+.clearfix:after {
+	content: '';
+	display: block;
+	height: 0;
+	clear: both;
+}
+.clearfix {
+ 	zoom: 1;
+}
+body { background: url(../img/bg.jpg) no-repeat;background-position:top center ;  }
+.relative { position: relative; }
+/*主体内容*/
+.wrap { max-width: 1200px;height: 2458px;margin:0 auto;position: relative; }
+/*----头部------*/
+header {margin: 0 auto;}
+.topbg { position: absolute;top: 0;left: 0; }
+.logo {display: block;width: 330px;height: 100px; position: absolute;top: 50px;left: 50%;margin-left:-350px; text-indent: -999px; }
+.loading {display: block;width: 300px;height: 100px; position: relative;margin-left: -370px;top: 400px;text-indent: -999px;}
+/*-------导航-----------*/
+nav { position: absolute;top: 0;right: 100px;  background: url(../img/nav.png) no-repeat;}
+nav ul {width: 357px;height: 31px;line-height: 31px; margin-left: 40px;}
+nav ul li { float: left; font-size: 14px;color: #e4e4d3; }
+nav ul li a { color: #e4e4d3; padding: 0 5px;}
+
+/*---------内容区-------------*/
+section {width: 1172px;margin:0 auto; margin-top: 550px;}
+section .left { width:367px;height: 612px;background: url(../img/dati.png) no-repeat;}
+
+.left { float: left; }
+.center { float: left;margin-left: 40px;margin-top: 50px; }
+.left ul{width: 250px;height: 170px; position: absolute;top: 311px;left: 50%;margin-left:-100px;color: #fff; }
+.left ul li { line-height: 36px; color: #c5baa6;}
+.left ul li span { margin-left: 10px;color: #f6430d; }
+.left ul li mark { background: none;color: #c5baa6; } 
+.title { padding-bottom: 5px; }
+.btn { position: absolute;bottom: 12px;left: 55px; }
+.btn button { width: 125px;height: 40px; border: none;background: none;}
+.btn a { display: block;width: 252px;height: 80px; }
+.wheel { width: 510px;height: 510px;background: url(../img/whell.png); }
+.hand { position: absolute;top: 50%;left:50%;margin-left: -120px;margin-top: -147px; }
+
+/*-------侧边--------*/
+.aside-box { position: fixed;right: 0;top: 50%;margin-top: -172px; }
+.aside {width: 105px;height: 345px;background: url(../img/aside.png) no-repeat;  float: right;margin-right: 5px;position: relative;z-index: 100;}
+.aside ul { position: absolute;top: 20px;left: 0; }
+.aside ul li { padding: 4px 0; }
+.aside ul li a { display: block;width: 101px;height: 38px;text-indent: -999px;}
+.aside ul .begingame { width: 101px;height: 103px; }
+
+
+.activity2 { width: 1101px;height: 647px;background: url(../img/textbg.png) no-repeat center ;margin-top: 75px; }
+.activity2 ul { padding: 60px 0 0 40px; }
+.activity2 ul li { float: left; text-align: center;margin: 0 20px;}
+.btn2 { margin-left: 100px; }
+.btn2 a { display: block;width: 190px;height: 60px;background: url(../img/btn2.png) no-repeat; display: inline-block;margin: 30px 0 0 20px;}
+.btn2 .icon-2 { background-position: -220px 0; }
+.btn2 a:hover { background: url(../img/btn2a.png) no-repeat; }
+.btn2 .icon-2:hover { background: url(../img/btn2a.png) no-repeat -220px 0; } 
+
+.activity2-text { color: #b1a392;margin: 80px 0 0 40px; font-size: 12px;} 
+.activity2-text h4 { padding: 10px 0; }
+.activity2-text p { line-height: 25px; }
+.activity2-text span { color: #ed400c; }
+.icon-3 { display: inline-block;width: 77px;height: 23px;background: url(../img/kefu.png) no-repeat; margin: 0 10px;}
+
+.activity3 { width: 1201px;height:663px;background: url(../img/icon.png) no-repeat -340px 0;  }
+.activity3 img { width: 120%; }
+.bgposition {  position: absolute;left: -240px; }
+.btn3 { position: absolute;right:100px;bottom: 230px; }
+.btn3 p { float: left; }
+.btn3 a { display: block;width: 156px;height: 68px;z-index: 100; }
+.lucky { text-align: center;color: #c5baa6;position: absolute;bottom: 230px;left: 220px;overflow: hidden;height: 56px;}
+.lucky li { float: left; }
+.lucky li strong { margin:0 30px 0 20px; }
